@@ -7,11 +7,7 @@ export default function Shop({ onAddItemToCart }) {
       <h2>Elegant Clothing For Everyone</h2>
 
       <ul id="products">
-        {DUMMY_PRODUCTS.map((product) => (
-          <li key={product.id}>
-            <Product {...product} onAddToCart={onAddItemToCart} />
-          </li>
-        ))}
+       
       </ul>
     </section>
   );
